@@ -1,0 +1,49 @@
+- id: math
+  img: math-icon.svg
+  color: "#9331CC"
+  title: Learning Math
+  abstract: I have learned math since the beginning of my study life and keep writing about math under an intuitive way.
+  icon: fa-graduation-cap
+  detail:
+    - date: 2005 - 2008
+      activity: 
+      more: 
+    - date: 2008 - 2012
+      activity: 
+      more: 
+- id: phd
+  img: phd-icon.svg
+  color: "#f35d00"
+  title: PhD Research
+  abstract: I researched on the growth of biofilm by using Finite Element Method, a numerical analysis method.
+  icon: fa-university
+  detail:
+    - date: 10 - 13/06/2014
+      activity: 
+      more: 
+      link:
+      link-des:
+- id: web-development
+  img: web-dev-icon.svg
+  color: "#008b8b"
+  title: Web development
+  abstract: I've totally learned by myself, created website Math2IT and designed some Jekyll themes.
+  icon: fa-globe
+  detail:
+    - date: 2012
+      activity: 
+      more: 
+      link: 
+      link-des: 
+- id: data
+  img: data-icon.svg
+  color: "#ed143d"
+  title: Data Scientist
+  abstract: I've started to learn to be a data scientist from the field of numerical analysis.
+  icon: fa-database
+  detail:
+    - date: 2017 - present
+      activity: 
+      more:
+      link: 
+      link-des: 

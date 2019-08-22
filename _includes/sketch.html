@@ -1,0 +1,12 @@
+
+{% for i in (1..include.nbphotos) offset:include.offset limit:include.limit %}
+<div class="col-md-3 col-sm-4 col-xs-6 gal-item">
+  <div class="box">
+    {% assign ri = include.nbphotos | minus: i %}
+    {% assign ri = ri | plus: 1 %}
+    <a href="{{ site.baseurl }}/img/sketch/s{{ri}}_bigger.jpg" data-lightbox="gallery-set" data-title="photo {{i}}">
+      <img src="{{ site.baseurl }}/img/sketch/s{{ri}}_thumbnail.jpg" class="img-fluid" alt="photo {{i}}">
+    </a>
+  </div>
+</div>
+{% endfor %}

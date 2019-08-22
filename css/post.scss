@@ -1,0 +1,92 @@
+---
+---
+
+@import 'insert-img'; // _insert-img.scss
+@import 'insert-video'; // _insert-video.scss
+@import 'step'; // _step.scss
+@import 'tomTat'; // _tomTat.scss
+@import 'tquote';
+@import 'toc';
+@import 'heading';
+
+.post-container{
+  .sec-title h2{
+    font-size: 2rem!important;
+  }
+  .tag-list{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.post-content{
+  margin: 4rem 0;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  
+  @media (max-width: 575px){
+    margin-top: 2rem;
+  }
+
+  p{
+    margin-bottom: 1.2rem;
+  }
+
+  .alert p:last-of-type{
+    margin-bottom: 0;
+  }
+
+  // p a{
+  //   color: #2175d2;
+  //   font-weight: 600;
+  //   &:hover{
+  //     color: #0085A1;
+  //   }
+  // }
+
+  a{
+    color: inherit;
+    font-weight: inherit;
+    border-bottom: 2px solid #2dbbebc4;
+    box-shadow: inset 0 -3px 0 #A6DCF3;
+  }
+  a:hover{
+    border-bottom: 2px solid #eb2dcfc4;
+    box-shadow: inset 0 -3px 0 #eea6f3;
+  }
+
+  b,strong{
+    color: #333;
+  }
+
+  li{
+    margin-bottom: .5rem;
+    p{
+      margin: 0;
+    }
+  }
+}
+
+.post-more{
+  padding-bottom: .3rem;
+  margin-top: 2rem;
+  color: #5a5a5a;
+  border-bottom: 2px dashed #ccc;
+  overflow: hidden;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  &+ul, &+p{
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+  }
+}
+
+// just for more post tutorial
+.tutorial-main .element-description{
+  display: none;
+}
+
+.thought-main .element-subtitle{
+  display: none;
+}
