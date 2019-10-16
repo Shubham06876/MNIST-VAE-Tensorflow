@@ -1,4 +1,4 @@
-# MNIST-VAE-in-Tensorflow
+# MNIST-VAE-Tensorflow
 A simple implementation of Variational Autoencoder for MNIST in Tensorflow/Keras.
 
 Original paper: [Auto-Encoding Variational Bayes](https://arxiv.org/pdf/1312.6114) (Diederik P. Kingma, Max Welling).
