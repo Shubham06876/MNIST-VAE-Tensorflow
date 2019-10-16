@@ -10,7 +10,7 @@ A very well-trained VAE model should be able to reconstruct original images.
 Here, only the reconstruction of 2D latent dimension is shown. 
  Feel free to try different dimension of latent space.
 <tr align='center'>
-<td><img src = 'results/reconstruction_images.png' height = '1000px'>
+<td><img src = 'results/reconstruction_images.png' height = '500px'>
 
 ### Latent space representation
 With latent dimension being 2, the latent space representation can be visualized using 2D scatterplot.
