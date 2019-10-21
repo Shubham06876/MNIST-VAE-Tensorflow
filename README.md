@@ -29,9 +29,8 @@ After 30 epochs, FID Score = 20.359
 ## Convolutional VAE
 Added additional convolutional and drop-out layers.
 ### Image reconstruction
-
 <tr align='center'>
-<td><img src = 'results/Convolutional VAE/reconstruction_images.png' height = '500px'>
+<td><img src = 'results/Convolutional VAE/reconstruction_images.png' height = '5000px'>
 
 ### Latent space representation
 
